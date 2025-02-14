@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3e5fc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-image: url('./img/ninios_pennyjuice.png');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #64b5f6;
+    padding: 1rem;
+    display: flex;
+    gap: 45%;
+}
+nav{
+    float: right;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+}
+header img {
+    justify-content: left;
+    width: auto;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#products{
+    margin-top: 5%;
+    background: linear-gradient(135deg, rgba(162, 210, 255, 0.8), rgba(224, 247, 250, 0.8));
+    padding: 50px 8px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+#products h2{
+    color:#023e8a;
+}
+
+article {
+    background: #e3f2fd;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    border: 2px solid #90caf9;
+}
+
+footer {
+    background-color: #64b5f6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 75%;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+article {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.about{
+    margin-top: 5%;
+    background: linear-gradient(135deg, rgba(162, 210, 255, 0.8), rgba(224, 247, 250, 0.8));
+    padding: 50px 8px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-container p {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #023e8a;
+}
+.about-container img {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact-about {
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#contact-about article {
+    min-width: 95%;
+    padding: 20px;
+    background-color: #f8f8f8; 
+    border-radius: 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.rights {
+    text-align: right;
+}
+
+.contact {
+    text-align: left;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-medias i{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, rgba(162, 210, 255, 0.8), rgba(224, 247, 250, 0.8));
+    padding: 55px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+.welcome-section h1 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+.welcome-section p {
+    font-size: 20px;
+    color: #023e8a;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
