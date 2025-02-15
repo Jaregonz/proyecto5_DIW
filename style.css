@@ -189,8 +189,8 @@ article {
 }
 .button {
     margin-top: 5%;
-    background-color: #003366; /* Azul oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #003366;
+    color: #ffffff;
     padding: 12px 75px;
     border: none;
     border-radius: 8px;
@@ -200,7 +200,7 @@ article {
   }
   
   .button:hover {
-    background-color: #002244; /* Azul más oscuro al pasar el cursor */
+    background-color: #002244;
   }
 
   @media screen and (max-width: 768px) {
